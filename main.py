@@ -52,6 +52,7 @@ def get_status() :
                 print('!! 错误的隐私登录设置')
             print('-> 当前用户：*' + username.group(1)[1:len(username.group(1)) - 1]  + '*')
     else:
+        print(data)
         print('-> 登录身份过期或程序失效')
         ERROR = 2
 
