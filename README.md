@@ -52,6 +52,6 @@ UID_1@PASS_1, UID_2@PASS_2
 
 ## LICENSE
 
-请勿用作任何商业用途
+请勿用作任何商业用途!
 
 [Apache License 2.0](LICENSE)
