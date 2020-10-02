@@ -37,6 +37,7 @@ def get_status() :
         print('!! 错误的状态： ' + str(r.status))
         ERROR = 1
     data = r.data.decode('utf-8')
+    print(data)
 
     # 用户名
     pattern = re.compile('<a\s*href=[\'|"]userdetails\.php\?id=\d+[\'|"]\s*class=[\'|"].+[\'|"]\s*>\s*<b>\s*(.+)</b>\s*</a>')
