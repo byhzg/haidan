@@ -37,7 +37,6 @@ def get_status() :
         print('!! 错误的状态： ' + str(r.status))
         ERROR = 1
     data = r.data.decode('utf-8')
-    print(data)
 
     # 用户名
     pattern = re.compile('<a\s*href=[\'|"]userdetails\.php\?id=\d+[\'|"]\s*class=[\'|"].+[\'|"]\s*>\s*<b>\s*(.+)</b>\s*</a>')
@@ -52,7 +51,6 @@ def get_status() :
                 print('!! 错误的隐私登录设置')
             print('-> 当前用户：*' + username.group(1)[1:len(username.group(1)) - 1]  + '*')
     else:
-        print(data)
         print('-> 登录身份过期或程序失效')
         ERROR = 2
 
