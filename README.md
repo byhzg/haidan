@@ -1,6 +1,6 @@
-# 海胆之家签到器
+＃海胆之家签到器
 
-[![GitHub issues](https://img.shields.io/github/issues/ColaSign/haidan?style=flat-square)](https://github.com/ColaSign/haidan/issues)
+[ ！[GitHub问题] （https://img.shields.io/github/issues/ColaSign/haidan?style=flat-square）] （https://github.com/ColaSign/haidan/issues）
 [![GitHub forks](https://img.shields.io/github/forks/ColaSign/haidan?style=flat-square)](https://github.com/ColaSign/haidan/network)
 
 最新版本：![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/ColaSign/haidan?style=flat-square)
